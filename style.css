@@ -1,0 +1,51 @@
+main {
+  background-color: #f7e3db;
+  font-family: sans-serif;
+  padding: 30px 10px;
+  h1 {
+    text-align: center;
+    background-color: #c17779;
+    color: white;
+    border-radius: 20px;
+    font-size: 2em;
+  }
+  button {
+    background-color: #c17779;
+    border-color: transparent;
+    border-radius: 13px;
+    color: white;
+    font-size: 1em;
+  }
+  #tabellone {
+    width: 900px;
+    margin-inline: auto;
+
+    div {
+      width: 3%;
+      display: inline-block;
+      margin-right: -2px;
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #fdb7b9;
+    }
+  }
+  .bottone {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #cartelle {
+    width: 600px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+
+    div.numeretto {
+      width: 5%;
+      display: inline-block;
+      margin-right: -2px;
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #fdb7b9;
+    }
+  }
+}
